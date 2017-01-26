@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+
+body {
+  background-color: #fff;
+  color: #777;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 70px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 300;
+  color: black;
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: black;
+  /*font-weight: bold;
+  text-transform: uppercase;*/
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  color: black;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 13px;
+  color: black;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+header {
+  height: 60px;
+  background-color: #8F8779;
+}
+
+header nav {
+  float: right;
+}
+.nav_ul {
+  display: flex;
+  flex-direction: row;
+  width: 940px;
+}
+
+.nav_li  {
+  padding-top: 20px;
+  margin: auto;
+}
+
+header nav ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+a:hover:not(.active) {
+    background-color: #CCC1AD;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: #fff;
+}
+
+#main-page-mid {
+  height: 760px;
+  padding-top: 1px;
+  background-color: #CCC1AD;
+}
+
+#main-page-mid h1 {
+  margin: 140px 0 40px 0;
+}
+
+.di  {
+  animation-delay:0.4s;
+  -moz-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+.dv  {
+  animation-delay:0.8s;
+  -moz-animation-delay:0.8s;
+  -webkit-animation-delay:0.8s;
+}
+
+.dsub {
+  color: #fff;
+  animation-delay:2.0s;
+  -moz-animation-delay:2.0s;
+  -webkit-animation-delay:2.0s;
+}
+
+#main-page-mid h3 {
+  /*margin: 180px 0 40px 0;*/
+  font-family: 'Comfortaa', cursive;
+}
+
+
+
+#features ul {
+  /*margin: 80px 0;*/
+  background-color: #CCC1AD;
+}
+
+#features ul li {
+  width: 300px;
+  padding-top: 140px;
+  float: left;
+  /*margin-right: 10px;*/
+  text-align: center;
+}
+
+.feature_head {
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  animation-delay:1.4s;
+  -moz-animation-delay:1.4s;
+  -webkit-animation-delay:1.4s;
+
+}
+.material-icons.md-48 {
+  font-size: 96px;
+  color: #fff;
+  animation-delay:1.4s;
+  -moz-animation-delay:1.4s;
+  -webkit-animation-delay:1.4s;
+}
+
+.info-text {
+  animation-delay:1.4s;
+  -moz-animation-delay:1.4s;
+  -webkit-animation-delay:1.4s;
+  color: black;
+}
+#about-content {
+  background-color: #CCC1AD;
+  padding: 60px 0;
+}
+
+#about-content h3 {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 400px;
+  border-bottom: 1px solid black;
+  padding: 0 0 20px 0;
+}
+
+#portfolio-content {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#portfolio-content article {
+  width: 460px;
+  height: 270px;
+  float: left;
+  background-color: #f5f5f5;
+}
+
+#portfolio-content article:second-child {
+  margin-right: 10px;
+}
+
+#portfolio-content article .overlay {
+  background: rgba(255, 255, 255, .95);
+  height: 230px;
+  width: 190px;
+  padding: 20px;
+}
+
+article h4 {
+  border-bottom: 1px solid red;
+  padding-bottom: 20px;
+}
+
+.more-link {
+  border: 1px solid blue;
+  color: black;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+.more-link:hover {
+  background-color: red;
+  color: #fff;
+}
+
+#cta {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#cta h3 {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 400px;
+  border-bottom: 1px solid black;
+  padding: 0 0 20px 0;
+}
+
+.button-2 {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid red;
+  color: blue;
+  border-radius: 3px;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.button-2:hover {
+  background-color: #02b8dd;
+  color: #fff;
+}
+
+footer {
+  height: 60px;
+  padding-top: 20px;
+  background-color: #8F8779;
+
+}
+
+
